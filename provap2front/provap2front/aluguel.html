@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluguel de Carro</title>
+</head>
+
+<body>
+
+    <div>
+        <h2>ALUGUEL DE CARRO</h2>
+        <label for="clienteNome">NOME DO CLIENTE:</label>
+        <input type="text" id="clienteNome" placeholder="Nome do Cliente">
+        <br>
+        <label for="carroNome">NOME DO CARRO:</label>
+        <input type="text" id="carroNome" placeholder="Nome do Carro">
+        <br>
+        <label for="dtaluguel">DATA DE ALUGUEL:</label>
+        <input type="date" id="dtaluguel">
+        <br>
+        <label for="dtdevolucao">DATA DE DEVOLUÇÃO:</label>
+        <input type="date" id="dtdevolucao">
+        <br>
+        <label for="valoraluguel">VALOR DO ALUGUEL:</label>
+        <input type="text" id="valoraluguel" placeholder="Valor do Aluguel">
+        <br><br>
+        <button onclick="addAluguel()">Adicionar Aluguel</button>
+        <button onclick="viewAlugueis()">Visualizar Aluguéis</button>
+        <button onclick="deleteAluguel()">Excluir Aluguel</button>
+        <button onclick="updateAluguel()">Atualizar Aluguel</button>
+    </div>
+
+    <script src="aluguel.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
